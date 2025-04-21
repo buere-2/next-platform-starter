@@ -1,0 +1,78 @@
+
+body {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 4em;
+  background: linear-gradient(to right, #ff004c, #00c3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.slogan {
+  font-style: italic;
+  color: #999;
+}
+
+.intro {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: #ff004c;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #e00042;
+}
+
+.terminal {
+  background-color: #1a1a1a;
+  padding: 30px;
+  margin-top: 80px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.loading {
+  font-size: 1.4em;
+  color: #00ffcc;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  color: #444;
+  font-size: 0.9em;
+}
